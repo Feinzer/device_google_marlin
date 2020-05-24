@@ -14,9 +14,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_marlin
 PRODUCT_DEVICE := marlin
-PRODUCT_BRAND := google
-PRODUCT_MODEL := Pixel XL
-TARGET_MANUFACTURER := HTC
+PRODUCT_BRAND := Android
+PRODUCT_MODEL := AOSP on msm8996
+PRODUCT_MANUFACTURER := Google
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
